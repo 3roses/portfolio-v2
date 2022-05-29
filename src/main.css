@@ -14,7 +14,9 @@
 
 /* ----------------Intro */
 
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Merriweather+Sans:ital,wght@1,700&family=Paytone+One&display=swap');
+
 
 
 .intro{
@@ -26,15 +28,74 @@
 }
 
 .name{
-    font-family: Merriweather Sans;
-    font-size: 50px;
+    display: flex;
+    font-family: Archivo Black;
+    font-size: 130px;
+}
+
+.letterSpace{
+    margin-left: .25rem;
+    margin-right: .25rem;
+}
+
+.c{
+    color: #014f86;
+}
+.r{
+    color: #2a6f97;
+}
+.a{
+    color: #2c7da0
+}
+.i{
+    color: #468faf;
+}
+.g{
+    color: #61a5c2;
+}
+.l{
+    color: #014f86;
+}
+.e{
+    color: #2a6f97;
+}
+.s{
+    color: #2c7da0
+}
+.l{
+    color: #468faf;
+}
+.iTwo{
+    color: #61a5c2;
+}
+.eTwo{
+    color: #89c2d9;
+}
+
+.title{
+    font-family: Archivo Black;
+    font-size: 40px;
 }
 
 .location{
-
+    font-family: Archivo Black;
+    font-size: 20px;
 }
 
+@media screen and (max-width: 900px){
+    .name{
+        font-size: 100px;
+    }
+}
 
+@media screen and (max-width: 740px){
+    .name{
+        font-size: 80px;
+    }
+    .title{
+        font-size: 25px;
+    }
+}
 
 /* ----------------Projects */
 

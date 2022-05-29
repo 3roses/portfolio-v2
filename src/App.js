@@ -3,13 +3,16 @@ import './App.css';
 import ColorMode from './components/ColorMode';
 import Intro from './components/Intro';
 import Work from './components/Work';
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 function App() {
   return (
     <>
-      <ColorMode />
-      <Intro />
-      <Work />
+      <ParallaxProvider>
+        <ColorMode />
+        <Intro />
+        <Work />
+      </ParallaxProvider>
     </>
   );
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import AOS from 'aos';
+import { Parallax } from 'react-scroll-parallax';
 import 'aos/dist/aos.css'
 
 const Intro = () => {
@@ -7,17 +8,20 @@ const Intro = () => {
     <>
         <div className='intro'>
             <div className='name'>
-              <span data-aos='fade-right' data-aos-duration="1000" data-aos-delay='50'>C </span>
-              <span>r </span>
-              <span>a </span>
-              <span>i </span>
-              <span>g </span>
-              <span>L </span>
-              <span>e </span>
-              <span>s </span>
-              <span>l </span>
-              <span>i </span>
-              <span>e </span>
+              <Parallax className="lineUp" speed={10}>
+                  <span className='letterSpace c'>C</span>
+                  <span className='letterSpace r'>r</span>
+                  <span className='letterSpace a'>a</span>
+                  <span className='letterSpace i'>i</span>
+                  <span className='letterSpace g'>g</span>
+                  <span className='letterSpace c'>L</span>
+                  <span className='letterSpace e'>e</span>
+                  <span className='letterSpace s'>s</span>
+                  <span className='letterSpace l'>l</span>
+                  <span className='letterSpace iTwo'>i</span>
+                  <span className='letterSpace eTwo'>e</span>
+              </Parallax>
+
             </div>
             <div className='title'>Software Engineer</div>
             <div className='location'>Dallas,Texas</div>
