@@ -28,7 +28,7 @@ const Work = () => {
   return (
     <>
         <div  data-aos='fade-left' data-aos-duration="1000" data-aos-delay='50'className='recentWork'>
-            Recent Work . . . 
+            Recent Work ...
         </div>
         <div className='projects'>
             <div className='singleProject'> 

@@ -114,6 +114,7 @@
     margin-left: 3rem;
     margin-top: 7rem;
     margin-bottom: 2rem;
+    margin-right: 3rem;
 }
 
 .projects{
@@ -168,7 +169,6 @@
 .projectDeployInfo{
     font-family: Andale Mono, aktiv-grotesk, sans-serif;
     font-weight: 300;
-    /* font-style: italic; */
     font-size: 18px;
     padding-left: 4rem;
     padding-top: 1rem;
@@ -176,12 +176,6 @@
 }
 
 .projectPicture{
-    /* background-image: url(./photos/nba/nba-resize.png); */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-    /* min-width: 50%; */
-    /* display: flex; */
-    /* min-height: 50%; */
     max-width: 50%;
     max-height: 50%;
     display: block;
@@ -200,8 +194,6 @@ img{
 .socials{
     padding-left: 4rem;
     font-size: 50px;
-    /* color: black; */
-    /* padding-top: 1rem; */
 }
 
 a{
@@ -242,6 +234,9 @@ a{
     .deployBtn{
         padding-left: 1rem;
     }
+    .ellipsis{
+        padding-left: 1rem;
+    }
 }
 
 @media screen and (max-width: 900px){
@@ -265,6 +260,57 @@ a{
     padding-bottom: 1rem;
 }
 
+#aboutMeTitle{
+    padding-left: 1rem;
+}
+
+.aboutMeInfo{
+    padding-right: 4rem;
+    padding-left: 1rem;
+    /* padding-left: 1rem; */
+}
+
+#aboutEllipsis{
+    padding-left: 1rem;
+}
+
+#aboutConnect{
+    padding-left: 1rem;
+}
+
+.iconMarginBottom{
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+    margin-top: 1rem;
+}
+
 .socialsAbout{
     margin-right: 2rem;
+}
+
+#collabHeader{
+    padding-left: 1rem;
+}
+
+#collabMessage{
+    padding-left: 1rem;
+}
+
+#collabEmail{
+    padding-left: 1rem;
+    font-size: 25px;
+    color: #61a5c2;
+    padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 970px){
+    .aboutMeInfo h1{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .aboutMeInfo{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
 }
