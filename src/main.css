@@ -104,6 +104,27 @@
     .title{
         font-size: 20px;
     }
+    .location{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .name{
+        font-size: 50px;
+    }
+    .title{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 389px){
+    .name{
+        font-size: 40px;
+    }
+    .title{
+        font-size: 16px;
+    }
 }
 
 /* ----------------Projects */
