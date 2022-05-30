@@ -314,3 +314,38 @@ a{
         padding-right: 1rem;
     }
 }
+
+/* ----------------Footer */
+
+.portfolioFooter{
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    right: 0;
+    /* height: 7rem; */
+    justify-content: center;
+    align-items: center;
+    font-family: Andale Mono, aktiv-grotesk, sans-serif;
+    font-weight: 300;
+    line-height: 2rem;
+    /* background-color: #014f86; */
+    /* background-color: gray; */
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.footerEmail{
+    color: #61a5c2;
+}
+
+.sameLine{
+    display: flex;
+    flex-direction: row;
+}
+
+.spaceHeart{
+    margin-left: .5rem;
+    margin-right: .5rem;
+    padding-top: .5rem;
+    color: red;
+}
