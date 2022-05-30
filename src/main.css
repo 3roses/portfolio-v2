@@ -97,7 +97,24 @@
     }
 }
 
+@media screen and (max-width: 600px){
+    .name{
+        font-size: 60px;
+    }
+    .title{
+        font-size: 20px;
+    }
+}
+
 /* ----------------Projects */
+
+.recentWork{
+    font-family: Andale Mono;
+    font-size: 70px;
+    margin-left: 3rem;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+}
 
 .projects{
     display: flex;
@@ -222,7 +239,11 @@ a{
     }
 }
 
-
+@media screen and (max-width: 900px){
+    .recentWork{
+        font-size: 50px;
+    }
+}
 
 
 
