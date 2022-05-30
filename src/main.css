@@ -160,6 +160,11 @@
     padding-right: 1rem;
 }
 
+.ellipsis{
+    font-size: 40px;
+    padding-left: 4rem;
+}
+
 .projectDeployInfo{
     font-family: Andale Mono, aktiv-grotesk, sans-serif;
     font-weight: 300;
@@ -195,7 +200,7 @@ img{
 .socials{
     padding-left: 4rem;
     font-size: 50px;
-    color: black;
+    /* color: black; */
     /* padding-top: 1rem; */
 }
 
@@ -251,3 +256,15 @@ a{
     padding-left: 1rem;
     padding-right: 1rem;
 } */
+
+
+/* ----------------About */
+
+.aboutInfo{
+    padding-right: 4rem;
+    padding-bottom: 1rem;
+}
+
+.socialsAbout{
+    margin-right: 2rem;
+}

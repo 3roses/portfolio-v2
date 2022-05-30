@@ -38,6 +38,7 @@ const Work = () => {
                 <div data-aos='fade-left' data-aos-duration="1000" data-aos-delay='50' className='projectInfo'>
                     <h1>"DNDY"</h1>
                     <p className='projectAboutInfo'>DNDY is a fine-art auctioneer application. Artists can create a profile where they upload a picture of their featured work. On the "shop" page, the user can see the current piece, current bid, and time remaining. Also available is a gallery containing the current feature as well as the recently sold pieces.</p>
+                    <div className='ellipsis'>. . .</div>
                     <p className='projectDeployInfo'>Check out the deployed app!</p>
                     <div className='deployBtn'>
                     <a href='https://dndyfineart.herokuapp.com/' target='_blank' rel="noreferrer"><Button variant='outline'>DNDY</Button></a>
@@ -56,6 +57,7 @@ const Work = () => {
                 <div data-aos='fade-left' data-aos-duration="1000" data-aos-delay='50' className='projectInfo'>
                     <h1>"NBA Fandom"</h1>
                     <p className='projectAboutInfo'>This app is a one-stop-shop for NBA stats and schedules. The schedule for the current and next 5 days are displayed in the cards on the bottom of the page. Type in a player's name in the search bar and a table is created with their stats. This is a useful tool for comparing players. Choose a team from the dropdown menu to see a complete roster for that team and statistics for each player. </p>
+                    <div className='ellipsis'>. . .</div>
                     <p className='projectDeployInfo'>Check out the deployed app!</p>
                     <div className='deployBtn'>
                         <a href='https://eugene125.github.io/project-1/index.html' target='_blank' rel="noreferrer"><Button variant='outline'>NBA Fandom</Button></a>
@@ -73,6 +75,7 @@ const Work = () => {
                 <div data-aos='fade-up' data-aos-duration="1000" data-aos-delay='50' className='projectInfo'>
                     <h1>"Nerds Meet Nerds"</h1>
                     <p className='projectAboutInfo'>NMN is a dating app that allows users to create a profile and interact with people they like. After creating a profile, you have the option of liking or disliking other users. A "like" will open up a chatroom with that person so you can begin a conversation. The dashboard contains all the conversations a user is currently engaged in.</p>
+                    <div className='ellipsis'>. . .</div>
                     <p className='projectDeployInfo'>Check out the deployed app!</p>
                     <div className='deployBtn'>
                         <a href='https://nerds-meet-nerds.herokuapp.com/' target='_blank' rel="noreferrer"><Button variant='outline'>NMN</Button></a>
