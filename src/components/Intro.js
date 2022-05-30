@@ -1,5 +1,4 @@
 import React from 'react';
-import AOS from 'aos';
 import { Parallax } from 'react-scroll-parallax';
 import 'aos/dist/aos.css'
 

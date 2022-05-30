@@ -4,10 +4,21 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import picture from '../photos/personal/meandheights.jpeg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faTwitter, faInstagram, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { Button, ButtonGroup } from '@chakra-ui/react';
+import { faFacebook, faInstagram, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const About = () => {
+
+    useEffect(() => {
+        AOS.init({});
+
+        document.querySelectorAll('img')
+        .forEach((img) => 
+        img.addEventListener('load', () =>
+            AOS.refresh()
+        )
+    )
+    }, [])
+
   return (
     <>
         <div  data-aos='fade-left' data-aos-duration="1000" data-aos-delay='50'className='recentWork'>

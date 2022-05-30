@@ -3,12 +3,11 @@ import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faTwitter, faInstagram, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import nba from '../photos/nba/nba-screenshot4.png';
-import dndyWhite from '../photos/dndy/whiteDNDY.png';
 import dndyBlack from '../photos/dndy/DNDYlogo.png';
 import nmn from '../photos/nmn/nmn.png';
-import { Button, ButtonGroup } from '@chakra-ui/react';
+import { Button } from '@chakra-ui/react';
 
     
 
