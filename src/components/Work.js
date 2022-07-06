@@ -40,7 +40,7 @@ const Work = () => {
                     <div className='ellipsis'>. . .</div>
                     <p className='projectDeployInfo'>Check out the deployed app!</p>
                     <div className='deployBtn'>
-                    <a href='https://dndyfineart.herokuapp.com/' target='_blank' rel="noreferrer"><Button variant='outline'>DNDY</Button></a>
+                    <a href='https://dndy-art.herokuapp.com/' target='_blank' rel="noreferrer"><Button variant='outline'>DNDY</Button></a>
                     </div>
                     <p className='projectDeployInfo'>And take a look at the code on GitHub!</p>
                     <div className='socials'>
