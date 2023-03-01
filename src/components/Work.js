@@ -26,10 +26,31 @@ const Work = () => {
 
   return (
     <>
+    
         <div  data-aos='fade-left' data-aos-duration="1000" data-aos-delay='50'className='recentWork'>
             Recent Work ...
         </div>
         <div className='projects'>
+
+        <div className='singleProject'> 
+                <div  data-aos='fade-right' data-aos-duration="1000" data-aos-delay='50' className='projectPicture'>
+                <iframe src="https://drive.google.com/file/d/16pZTZVOLXYWI1OYUYikEYvr0MnN7zNlP/preview" width="640" height="480"></iframe>
+                </div>
+                <div data-aos='fade-left' data-aos-duration="1000" data-aos-delay='50' className='projectInfo'>
+                    <h1>"32EDU"</h1>
+                    <p className='projectAboutInfo'>Built a React app that allows clients to access important data in a clean and aesthetic way. Utilizing multiple APIs and displaying the information via charts, graphs, tables and cards. Built the entire app from scratch and is now being used by the customers of 32EDU.</p>
+                    <div className='ellipsis'>. . .</div>
+                    <p className='projectDeployInfo'>Check out the deployed app!</p>
+                    <div className='deployBtn'>
+                    <a href='https://thelab.thirtytwoedu.com/' target='_blank' rel="noreferrer"><Button variant='outline'>32EDU</Button></a>
+                    </div>
+                    <p className='projectDeployInfo'>Code on GitHub is currently private to protect API keys.</p>
+                    <div className='socials'>
+                        <a href='https://github.com/3roses/thirtytwo' target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faGithub} className='spaceIcon'></FontAwesomeIcon></a>
+                    </div>
+                </div>
+            </div>
+            
             <div className='singleProject'> 
                 <div  data-aos='fade-right' data-aos-duration="1000" data-aos-delay='50' className='projectPicture'>
                     <img src={dndyBlack}  alt='abstract painting'/>

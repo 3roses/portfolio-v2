@@ -10,12 +10,12 @@ function App() {
   return (
     <>
       <ParallaxProvider>
-        <ColorMode />
         <Intro />
+      </ParallaxProvider>
+        <ColorMode />
         <Work />
         <About />
         <Footer />
-      </ParallaxProvider>
     </>
   );
 }

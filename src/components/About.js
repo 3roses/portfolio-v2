@@ -41,6 +41,8 @@ const About = () => {
                         <h1 id='collabHeader'>Let's collab ...</h1>
                         <p id='collabMessage'className='projectDeployInfo'>I'd love to work together, shoot me an email!</p>
                         <p id='collabEmail'className='projectDeployInfo'><a href='mailto:cleslie25@gmail.com'>cleslie25@gmail.com</a></p>
+                        <p id='collabMessage'className='projectDeployInfo'>👇 And feel free to take a look at my resume below!</p>
+                        <p id='collabEmail'className='projectDeployInfo'><a href='https://docs.google.com/document/d/1g1N22wCHdF-DLk3XLg46hrdGdKr8Dz95jdKResKinzk/export?format=pdf'>My resume</a></p>
                     </div>
                 </div>
                 <div  data-aos='fade-right' data-aos-duration="1000" data-aos-delay='50' className='projectPicture'>

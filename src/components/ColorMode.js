@@ -9,11 +9,14 @@ const ColorMode = () => {
     const { toggleColorMode } = useColorMode()
 
   return (
-    <div className='colorMode'>
-        <IconButton onClick={toggleColorMode}
-            icon={<SunIcon />}
-        />
+    <div className='colorModeContainer'>
+      <div className='colorMode'>
+          <IconButton onClick={toggleColorMode}
+              icon={<SunIcon />}
+          />
+      </div>
     </div>
+    
   )
 }
 
