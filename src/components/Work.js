@@ -31,10 +31,11 @@ const Work = () => {
             Recent Work ...
         </div>
         <div className='projects'>
-
         <div className='singleProject'> 
                 <div  data-aos='fade-right' data-aos-duration="1000" data-aos-delay='50' className='projectPicture'>
-                <iframe src="https://drive.google.com/file/d/16pZTZVOLXYWI1OYUYikEYvr0MnN7zNlP/preview" width="640" height="480" alt="32edu walkthrough video"></iframe>
+                    <div className='vidContainer'>
+                        <iframe class="responsive-iframe" src="https://drive.google.com/file/d/16pZTZVOLXYWI1OYUYikEYvr0MnN7zNlP/preview" width="680" height="510" alt="32edu walkthrough video"></iframe>
+                    </div>
                 </div>
                 <div data-aos='fade-left' data-aos-duration="1000" data-aos-delay='50' className='projectInfo'>
                     <h1>"32EDU"</h1>

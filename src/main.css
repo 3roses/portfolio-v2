@@ -133,6 +133,18 @@
 
 /* ----------------Projects */
 
+.vidContainer{
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+.responsive-iframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .recentWork{
     font-family: Andale Mono;
     font-size: 70px;
