@@ -139,6 +139,18 @@
     width: 100%;
 }
 
+.ulStyle{
+    list-style: none;
+    gap: .25rem;
+}
+
+.gridFlex{
+    display: flex;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+    gap: .5rem;
+}
+
 .responsive-iframe{
     display: flex;
     justify-content: center;

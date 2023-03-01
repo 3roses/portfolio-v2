@@ -7,6 +7,10 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import nba from '../photos/nba/nba-screenshot4.png';
 import dndyBlack from '../photos/dndy/DNDYlogo.png';
 import nmn from '../photos/nmn/nmn.png';
+import labOne from '../photos/theLab/labOne.png';
+import labTwo from '../photos/theLab/labTwo.png';
+import labThree from '../photos/theLab/labThree.png';
+import labFour from '../photos/theLab/labFour.png';
 import { Button } from '@chakra-ui/react';
 
     
@@ -32,10 +36,17 @@ const Work = () => {
         </div>
         <div className='projects'>
         <div className='singleProject'> 
-                <div  data-aos='fade-right' data-aos-duration="1000" data-aos-delay='50' className='projectPicture'>
-                    <div className='vidContainer'>
-                        <iframe class="responsive-iframe" src="https://drive.google.com/file/d/16pZTZVOLXYWI1OYUYikEYvr0MnN7zNlP/preview" width="680" height="510" title="32edu walkthrough video"></iframe>
-                    </div>
+        <div  data-aos='fade-right' data-aos-duration="1000" data-aos-delay='50' className='projectPicture'>
+                    <ul className='ulStyle'>
+                        <div className='gridFlex'>
+                            <li><img src={labOne}  alt='abstract painting'/></li>
+                            <li><img src={labTwo}  alt='abstract painting'/></li>
+                        </div>
+                        <div className='gridFlex'>
+                            <li><img src={labThree}  alt='abstract painting'/></li>
+                            <li><img src={labFour}  alt='abstract painting'/></li>
+                        </div>
+                    </ul>
                 </div>
                 <div data-aos='fade-left' data-aos-duration="1000" data-aos-delay='50' className='projectInfo'>
                     <h1>"32EDU"</h1>
