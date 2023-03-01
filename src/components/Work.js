@@ -34,7 +34,7 @@ const Work = () => {
         <div className='singleProject'> 
                 <div  data-aos='fade-right' data-aos-duration="1000" data-aos-delay='50' className='projectPicture'>
                     <div className='vidContainer'>
-                        <iframe class="responsive-iframe" src="https://drive.google.com/file/d/16pZTZVOLXYWI1OYUYikEYvr0MnN7zNlP/preview" width="680" height="510" alt="32edu walkthrough video"></iframe>
+                        <iframe class="responsive-iframe" src="https://drive.google.com/file/d/16pZTZVOLXYWI1OYUYikEYvr0MnN7zNlP/preview" width="680" height="510" title="32edu walkthrough video"></iframe>
                     </div>
                 </div>
                 <div data-aos='fade-left' data-aos-duration="1000" data-aos-delay='50' className='projectInfo'>
